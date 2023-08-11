@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>个人网页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        p {
-            text-align: justify;
-            line-height: 1.5;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .profile-img {
-            display: block;
-            max-width: 200px;
-            margin: 20px auto;
-        }
-    </style>
+    <title>简单网站</title>
 </head>
 <body>
-    <div class="container">
-        <h1>个人网页</h1>
-        <img src="profile.jpg" alt="个人照片" class="profile-img">
-        <p>欢迎来到我的个人网页！我是XX，我对编程和网页设计充满热情。我喜欢学习新技术，并且享受创造和分享自己的作品。请随意浏览我的网页，了解更多关于我和我的项目。</p>
-        <h2>个人信息</h2>
+    <header>
+        <h1>欢迎来到简单网站</h1>
+    </header>
+
+    <nav>
         <ul>
-            <li><strong>姓名：</strong>XX</li>
-            <li><strong>年龄：</strong>XX岁</li>
-            <li><strong>邮箱：</strong>xxx@example.com</li>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#services">服务</a></li>
+            <li><a href="#contact">联系我们</a></li>
         </ul>
-        <h2>项目</h2>
+    </nav>
+
+    <section id="home">
+        <h2>欢迎</h2>
+        <p>这是我们的简单网站。在这里，我们提供各种有用的信息和服务。</p>
+    </section>
+
+    <section id="about">
+        <h2>关于我们</h2>
+        <p>我们是一家致力于提供优质服务的公司。我们拥有经验丰富的团队，为客户提供最好的解决方案。</p>
+    </section>
+
+    <section id="services">
+        <h2>我们的服务</h2>
         <ul>
-            <li><strong>项目1：</strong>项目描述1</li>
-            <li><strong>项目2：</strong>项目描述2</li>
-            <li><strong>项目3：</strong>项目描述3</li>
+            <li>网站设计与开发</li>
+            <li>移动应用开发</li>
+            <li>电子商务解决方案</li>
+            <li>在线市场推广</li>
         </ul>
-    </div>
+    </section>
+
+    <section id="contact">
+        <h2>联系我们</h2>
+        <p>如果您有任何问题或需要咨询，请随时与我们联系。</p>
+        <p>Email: info@example.com</p>
+        <p>电话：123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2022 简单网站. All rights reserved.</p>
+    </footer>
 </body>
 </html>
